@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.jumbo {
+    padding-top: 150px;
+    background: url(../images/background.png) no-repeat black center bottom;
+    color: white;
+    background-size: cover;
+    
+}
+.slick-next {
+    right: -60px
+}
+.jumbo_title {
+    position: relative;
+}
+
+.jumbo_button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color:#005680;
+    color: white;
+    border: none;
+}
+
+.jumbo-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,306 @@
+.section-info {
+    width: 1440px;
+    height: 540px;
+    padding-top: 50px;
+   
+}
+.infos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.nums {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.nums h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #005680;
+}
+
+/* Section mission */
+.missions-section {
+    position: relative;
+    background-image: url(../images/Group\ 13.png); 
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  /* Conteneur de contenu */
+  .missions-container {
+    background-color: #00334e; 
+    padding: 40px;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .missions-container::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+  }
+  
+  .missions-container::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 50px;
+    height: 50px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+  }
+  
+  /* Titre */
+  .missions-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Texte */
+  .missions-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d0d0d0; /* Gris clair */
+    margin-bottom: 20px;
+  }
+  
+  /* Lien */
+  .missions-link {
+    color: #00b4ff; /* Bleu clair */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .missions-link:hover {
+    color: #ffffff; /* Blanc */
+  }
+  
+  /* Effet pointillé */
+  .missions-container::after,
+  .missions-container::before {
+    box-sizing: border-box;
+  }
+  
+/* Section services */
+.services {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Couleur d'arrière-plan si nécessaire */
+    text-align: start;
+}
+
+.services-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #0a3d62;
+    font-weight: bold;
+}
+
+/* Grille des cartes */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 20px; /* Espacement entre les cartes */
+   
+}
+
+/* Carte */
+.service-card {
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px); /* Effet de survol */
+}
+
+/* Image */
+.service-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Contenu */
+.service-content {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4); /* Couche semi-transparente */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-name {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.service-link {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.service-link:hover {
+    transform: scale(1.2);
+}
+/* Styles globaux */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre de section */
+.section-title {
+    font-weight: 600;
+    text-align: left;
+    color: #002244;
+}
+
+/* Carte */
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-body .date {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #002244;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Images dans les cartes */
+.card-img-bottom {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Bouton Voir les actualités */
+.btn-primary {
+    background-color: #0077b6;
+    border-color: #0077b6;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #005b8f;
+    border-color: #005b8f;
+}
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #002244;
+}
+
+/* Conteneur global */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Titre de la section */
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Contenu global de la section */
+.references-content {
+    display: flex;
+    gap: 20px;
+}
+
+/* Image principale */
+.references-image {
+    flex: 1;
+    position: relative;
+}
+
+.references-image img {
+    width: 100%;
+    border: 5px solid #004080;
+    border-radius: 5px;
+}
+
+/* Logos des partenaires */
+.references-logos {
+    flex: 1.5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.logo-item img {
+    width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+/* Bouton Voir Plus */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #004080;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #002244;
+}

@@ -1,0 +1,91 @@
+.header {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 5px 0;
+    z-index: 999;
+}
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+
+.header-content {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+    gap: 36px;
+    list-style: none;
+}
+
+.menu li a {
+    color: #00334D;
+    text-decoration: none;
+}
+
+.navig {
+    background-color: #EAF8FF;
+}
+/* Section Contact */
+/* Section Contact */
+.contact-section {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Titres */
+.contact-section h2,
+.contact-section h3 {
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+/* Formulaire */
+.form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 14px;
+    color: #555;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #5FCCFF;
+    box-shadow: 0 0 5px rgba(95, 204, 255, 0.3);
+}
+
+/* Bouton */
+.btn-custom {
+    background-color: #5FCCFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #4cb8e6;
+    color: #fff;
+}
+
+/* Icônes et texte */
+.bi {
+    color: #5FCCFF;
+    margin-right: 5px;
+}
+
+.text-muted {
+    color: #7e8e9f;
+}

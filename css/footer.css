@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    background-color: #f8fbfd;
+}
+
+.footer h5 {
+    color: #002244;
+    font-weight: 600;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #0077b6;
+}
+
+.footer .social-icons i {
+    font-size: 1.2rem;
+    color: #002244;
+    transition: color 0.3s;
+}
+
+.footer .social-icons i:hover {
+    color: #0077b6;
+}
+
+.footer .btn-primary {
+    background-color: #0077b6;
+    border-color: #0077b6;
+    font-weight: 600;
+}
+
+.footer .btn-primary:hover {
+    background-color: #005b8f;
+    border-color: #005b8f;
+}
+
+.footer p {
+    color: #6c757d;
+}
+
+.footer small a {
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+.footer small a:hover {
+    color: #0077b6;
+}

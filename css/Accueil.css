@@ -1,0 +1,128 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #0a3d62;
+}
+
+/* En-tête */
+.header {
+    background: url('header-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .menu li {
+    margin: 0 15px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0a3d62;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.bienvenue .stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.missions {
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+.services-grid, .news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.service-card, .news-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0a3d62;
+    color: #fff;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+}
+.info-description h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.info-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.info_img img {
+    max-width: 100%;
+    height: auto;
+}
+
